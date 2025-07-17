@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontak Saya</title>
+  <style>
+    body {
+      background-color: #d5e9f7;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    textarea {
+      height: 120px;
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 20px;
+      background-color: #4a90e2;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #357ac9;
+    }
+
+    .info {
+      margin-top: 30px;
+      border-top: 1px solid #ccc;
+      padding-top: 20px;
+    }
+
+    .info h2 {
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .info p {
+      margin: 5px 0;
+    }
+
+    a {
+      color: #3366cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+    <center>
+  <nav>
+    <h3><a href="home.html" class="button">Home</a> |
+    <a href="aboutMe.html" class="button">Tentang Saya</a> |
+    <a href="contact.html"class="button">Kontak</a></h3>
+  </nav>
+  </center>
+  <div class="container">
+    <h1>Hubungi Saya</h1>
+    <p>Silakan isi formulir di bawah ini untuk mengirim pesan langsung:</p>
+
+    <form>
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Masukkan email aktif">
+
+      <label for="pesan">Pesan:</label>
+      <textarea id="pesan" name="pesan" placeholder="Tulis pesan di sini..."></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+
+    <div class="info">
+      <h2>Kontak Langsung</h2>
+<a href="mailto:rahmasariadha@gmail.com"><button>Email saya</button></a>
+ <a href="https://wa.me/62887433279838" target="_blank">
+  <button>Hubungi via WhatsApp</button>
+</a>
+
+
+      <h2>Media Sosial</h2>
+      <p>Instagram: <a href="https://www.instagram.com/adhaarahmaa?igsh=MWU0ZXpneG8zamU0ZQ==" target="_blank"><button>@adhaarahmaa</button></a></p>
+    </div>
+  </div>
+
+</body>
+</html>

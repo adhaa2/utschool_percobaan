@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #cde2f8;
+  color: #333;
+  padding: 20px;
+}
+/* From */
+form table {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.Moto {
+  background-color: #86bff8; /* biru terang */
+  color: rgb(21, 58, 97);              /* teks putih */
+  padding: 0px 0px;        /* ruang dalam */
+  font-weight: bold;         /* huruf tebal */
+  font-size: 20px;           /* ukuran teks */
+}
